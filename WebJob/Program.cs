@@ -10,11 +10,11 @@ namespace WebJob
         static JobHost host = null;
         public static async Task Main(string[] args)
         {
-            Trace.TraceInformation("Webjob started");
+            Console.WriteLine($"{nameof(WebJob)} started");
             var cancellationToken = new WebJobsShutdownWatcher().Token;
             cancellationToken.Register(() =>
             {
-                Trace.TraceInformation("Cancellation received");
+                Console.WriteLine("Cancellation received");
                 host.Stop();
             });
             var jobHostConfig = new JobHostConfiguration
@@ -25,7 +25,7 @@ namespace WebJob
             };
             host = new JobHost(jobHostConfig);
             await host.CallAsync(nameof(OneTimeTask));
-            Trace.TraceInformation("Webjob terminated");
+            Console.WriteLine($"{nameof(WebJob)} terminated");
         }
 
         [NoAutomaticTrigger]
@@ -33,7 +33,7 @@ namespace WebJob
         {
             // Simulate some work
             await Task.Delay(2000);
-            Trace.TraceInformation($"{nameof(OneTimeTask)} executed");
+            Console.WriteLine($"{nameof(OneTimeTask)} executed");
         }
     }
 }
