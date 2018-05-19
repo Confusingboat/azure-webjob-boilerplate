@@ -16,7 +16,9 @@ Literally just run
 dotnet restore
 dotnet publish
 ```
-and you'll be able to zip the publish directory and push that shit to Azure and watch it do nothing but waste your CPU time.
+or `right-click > Publish` and follow the wizard prompts of you're a scrub.
+
+Then just zip up the publish directory and push that shit to Azure and watch it do nothing but waste your CPU time.
 
 ## Can I make it do xyz?
 
