@@ -12,7 +12,7 @@ Real answer: I'm too lazy and couldn't be bothered.
 
 ## What's a WebJob?
 
-A snazzy new buzzword for that decrepit Hello World! example you call code that runs on somebody else's computer.
+A snazzy new buzzword for that decrepit _Hello World!_ example you call code that runs on somebody else's computer.
 
 ## How do I use it?
 
