@@ -5,6 +5,11 @@ It's a boilerplate for a one-off .NET Core Azure Webjob (crontab or manually tri
 
 In computer programming, boilerplate code or boilerplate refers to sections of code that have to be included in many places with little or no alteration.
 
+## Why not just make it a library instead?
+
+Official answer: doing it this way provides a good example for those who are new to Webjobs.  
+Real answer: I'm too lazy and couldn't be bothered.
+
 ## What's a Webjob?
 
 A snazzy new buzzword for that decrepit Hello World! example you call code that runs on somebody else's computer.
