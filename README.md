@@ -1,5 +1,5 @@
 ## What is this?
-It's a boilerplate for a one-off .NET Core Azure Webjob (scheduled or manually triggered).
+It's a boilerplate for a one-off .NET Core Azure Webjob (crontab or manually triggered).
 
 ## What's a boilerplate?
 
