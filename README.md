@@ -1,5 +1,5 @@
 ## What is this?
-It's a boilerplate for a one-off .NET Core Azure Webjob (crontab or manually triggered).
+It's a boilerplate for a one-off .NET Core Azure WebJob (crontab or manually triggered).
 
 ## What's a boilerplate?
 
@@ -7,10 +7,10 @@ In computer programming, boilerplate code or boilerplate refers to sections of c
 
 ## Why not just make it a library instead?
 
-Official answer: doing it this way provides a simple example for those who are new to Webjobs.  
+Official answer: doing it this way provides a simple example for those who are new to WebJobs.  
 Real answer: I'm too lazy and couldn't be bothered.
 
-## What's a Webjob?
+## What's a WebJob?
 
 A snazzy new buzzword for that decrepit Hello World! example you call code that runs on somebody else's computer.
 
@@ -27,4 +27,4 @@ Then just zip up the publish directory and push that shit to Azure and watch it 
 
 ## Can I make it do xyz?
 
-Probably not.
+I doubt it.
