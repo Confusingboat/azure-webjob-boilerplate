@@ -27,4 +27,4 @@ Then just zip up the publish directory and push that shit to Azure and watch it 
 
 ## Can I make it do xyz?
 
-I doubt it.
+If you have to ask, probably not.
